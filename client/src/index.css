@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{  
+  background-image: url(https://static.vecteezy.com/system/resources/previews/017/457/733/non_2x/abstract-minimal-white-background-geometric-mosaic-wallpaper-design-vector.jpg);
+ /** background-image: url(https://img.freepik.com/free-vector/white-gradient-background-modern-design_361591-4496.jpg?ga=GA1.1.1577933916.1727357004&semt=ais_hybrid); **/
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ min-height: 100vh;
+}
+
+header{
+  background-image: url(https://e0.pxfuel.com/wallpapers/590/427/desktop-wallpaper-animated-smoke.jpg); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#perfect{
+ background-image: url(https://wallpapers.com/images/hd/black-and-blue-background-cjfp3siwahll95hq.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 20vh;
+
+}
+
+#listBg{
+  background-color: lightslategray;
+}
+
+#scroll{
+  overflow: scroll;
+  height: 100px;
+
+}
+
