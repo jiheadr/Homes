@@ -16,14 +16,13 @@ export default function Header() {
     navigate(`/search?${searchQuery}`);
   };
   return (
-    <header className='bg-green-800 shadow-md' id="header">
-        <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
+    <header className='bg-slate-200 shadow-md'>
+      <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
         <Link to='/'>
-        <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
-        <img className='hidden sm:inline rounded-lg h-14 w-21
-              object-cover' src='images/logo.JPG' 
-              alt='logo' />
-        </h1>
+          <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
+            <span className='text-blue-600'>HomesF</span>
+            <span className='text-blue-300'>orYou</span>
+          </h1>
         </Link>
         <form onSubmit={handleSubmit} className='bg-slate-100 p-3 rounded-lg flex items-center'>
             <input type="text" placeholder='Search...' 
