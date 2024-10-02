@@ -21,7 +21,7 @@ export default function Header() {
         <Link to='/'>
         <h1 className='font-bold text-sm sm:text-xl flex flex-wrap'>
         <img className='hidden sm:inline rounded-lg h-14 w-21
-              object-cover' src='/images/logo.JPG' 
+              object-cover' src='./images/logo.JPG' 
               alt='logo' />
         </h1>
         </Link>
